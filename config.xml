@@ -9,6 +9,10 @@
 <content src="index.html"/>
 
 <access origin="*"/>
+  
+<allow-navigation href="*" />
+
+<allow-intent href="*" />
 
 <platform name="android">
 <!-- a preference specific to android only here -->
@@ -88,10 +92,7 @@ value="org.apache.cordova.device.Device"
 <preference name="ChildBrowser" value="disable"/>
 <preference name="PopupBlocker" value="enable"/>
 <preference name="WebSecurity" value="disable"/>
-  
-<allow-navigation href="*" />
-<access origin="*" />
-<allow-intent href="*" />
+
 
 
 
