@@ -17,4 +17,6 @@
 
 <plugin name="cordova-plugin-whitelist" />
 <access origin="*" />
+<allow-intent href="*" />
+<allow-navigation href="*" />
 </widget>
