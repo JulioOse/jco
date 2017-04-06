@@ -86,7 +86,7 @@ value="org.apache.cordova.device.Device"
 
 <!--BlackBerry 10 Preferences-->
 <preference name="ChildBrowser" value="disable"/>
-<preference name="PopupBlocker" value="enable""/>
+<preference name="PopupBlocker" value="enable"/>
 <preference name="WebSecurity" value="disable"/>
 
 
