@@ -1,1 +1,230 @@
 
+<html>
+
+	<head>
+
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- Include the jQuery library -->
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- Include the jQuery Mobile library -->
+		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		
+		<script src="cordova.js"></script>
+	</head>
+	
+	<body>
+		<style>
+			.fullscreen {
+				max-width: 100%;
+				max-height: 100%;
+			}
+			.cursive {
+				font-family: cursive;
+			}
+			.header-decor1 {
+				font-family: Arial Black;
+				text-shadow: 0.5px 0.5px orange;
+				text-decoration-line: underline;
+			}
+			.header-decor2 {
+				text-shadow: 0.5px 0.5px lightblue;
+				font-family: Arial Black;
+				text-decoration-line: underline;
+				text-align: center;
+			}
+			
+			
+		</style>
+		<!--- page one --->
+		<div data-role="page" id="pageone" data-theme="b" >
+			<div data-role="header">
+				<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<h1> Jco Web Development</h1>
+				<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+			</div>
+			<div data-role="main">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Sandiego_skyline_at_night.JPG" class="fullscreen">
+				<p style="text-align: center; font-family: 'Palatino Linotype';">THE BEST WEB DEVELOPMENT SERVICES IN SAN DIEGO AT AN AFFORDABLE PRICE</p>
+				<h3 style="text-align: center;">What We Do</h3>
+				<p>Need a custom made web application?
+				We can build a wide range of web applications that will help your business operate more efficiently. We also develop beautiful websites using the powerful platform know as WordPress.
+				Let us build you a modern website for your business.
+				Call us now so we can give you a free quote.</p>
+				<br> 
+				<div data-role="collapsible">
+					<h1>Our Promise</h1>
+					<img src="http://34.198.5.137/wp-content/uploads/2017/01/handshake-220233_960_720.jpg" class="fullscreen">
+					<p>We promise to give you our very best, we will never give you anything less.
+					Our mission is to make sure you get a product that satisfies and exceeds your needs.
+					Give us a call or email us to see how exactly we will accomplish just that</p>
+				</div>
+				
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageone" data-icon="home">Home</a></li>
+						<li><a href="#pagetwo" data-icon="info">About</a></li>
+						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--- end of page one --->
+		
+		
+		<!--- page two ---->
+	<div data-role="page" id="pagetwo" data-theme="b" >
+			<div data-role="header">
+				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<h1> About</h1>
+				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+			</div>
+
+			<div data-role="main">
+				<h2 style="text-align: center; font-family: san-serif">Learn more about us</h2>
+				<ul data-role='listview'>
+					<li><a href="#pagethree" data-transition="slide" class='cursive'><img src="http://www.publicdomainpictures.net/pictures/190000/velka/responsive-web-design-concept.jpg" >Websites vs Web apps what do you need?</a></li>
+					<li><a href="#pagefour" data-transition="slide" class='cursive'><img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/template-1599663_960_720.png" >Websites</a></li>
+					<li><a href="#pagefive" data-transition="slide" class='cursive'><img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/statistic-1606951_960_720.png" >Web Applications</a></li>
+				</ul>
+			</div>
+			
+			
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageone" data-icon="home">Home</a></li>
+						<li><a href="#pagetwo" data-icon="info">About</a></li>
+						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--- end of page two --->
+	
+		<!--- page three ---->
+	<div data-role="page" id="pagethree" data-theme="b" >
+			<div data-role="header">
+				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<h1> About</h1>
+				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+			</div>
+			
+			<div data-role="main">
+				<a href="#pagetwo" data-transition="slide" class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-icon-notext" data-direction="reverse"></a>
+				<img src="http://www.publicdomainpictures.net/pictures/190000/velka/responsive-web-design-concept.jpg" class="fullscreen">
+				<h3 class="header-decor1">WEBSITE  VS WEB APP: WHAT DO YOU NEED?</h3>
+				<p>A web site is like a brochure, design to present information to a user. Websites usually require little interaction by the user and have limited functionality. On the other hand web apps have a more rich user experience and have more functionality an example would be gmail. What you need depends on what you are trying to accomplish and who the intended users are. Give us a call so we can figure out what exactly you need.</p>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageone" data-icon="home">Home</a></li>
+						<li><a href="#pagetwo" data-icon="info">About</a></li>
+						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+			<!--- end of page three --->
+			
+			
+		<!--- page four ---->
+	<div data-role="page" id="pagefour" data-theme="b">
+			<div data-role="header">
+				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<h1> About</h1>
+				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+			</div>
+			
+			<div data-role="main">
+				<a href="#pagetwo" data-transition="slide" class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-icon-notext" data-direction="reverse"></a>
+				<img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/template-1599663_960_720.png" class="fullscreen">
+				<h3  class="header-decor2">WEBSITES</h3>
+				<p>Our websites are built using a powerful and well known tool called WordPress. All our websites are included with certain features. First off all our websites are fully responsive, meaning that your website will look good on both small and large screens. Another feature we include is Search engine optimization(SEO), seo is used to make sure that your website is shown further up the search results. Lastly we make sure your website is secure from hackers by using something called a web application firewall (WAF). This piece of technology is used to monitor your website for a suspicious activity and preventing any attacks.</p>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageone" data-icon="home">Home</a></li>
+						<li><a href="#pagetwo" data-icon="info">About</a></li>
+						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+			<!--- end of page four --->
+
+		<!--- page five ---->
+	<div data-role="page" id="pagefive" data-theme="b">
+			<div data-role="header">
+				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<h1> About</h1>
+				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+			</div>
+			
+			<div data-role="main">
+				<a href="#pagetwo" data-transition="slide" class="ui-btn ui-icon-back ui-btn-icon-left ui-btn-icon-notext" data-direction="reverse"></a>
+				<img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/statistic-1606951_960_720.png" class="fullscreen">
+				<h3 class="header-decor2">WEB APPLICATIONS</h3>
+				<p>Our web applications are built on the well known and commonly used LAMP (Linux Apache Mysql PHP ) stack.  We can build you a web application that can help manage your business and make your company more productive. An example of a web application that can help improve your business operations would be an inventory system. All our web applications are coded securely to make sure that your business data is safe and protected.</p>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageone" data-icon="home">Home</a></li>
+						<li><a href="#pagetwo" data-icon="info">About</a></li>
+						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+			<!--- end of page five --->
+
+		<!--- page six ---->
+	<div data-role="page" id="pagesix" data-theme="b">
+			<div data-role="header">
+				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<h1> Request Form</h1>
+				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+			</div>
+			
+			<div data-role="main">
+				<iframe class="fullscreen" src="https://docs.google.com/forms/d/e/1FAIpQLSfNiOf5bRYF1NZ3rZD0P57gs6LQak_pjPGiq4Wa9Kf6K8xJfA/viewform?embedded=true" width="1000" height="1000"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	
+			</div>
+			
+	<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageone" data-icon="home">Home</a></li>
+						<li><a href="#pagetwo" data-icon="info">About</a></li>
+						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+			<!--- end of page six --->
+			
+
+			
+	</body>
+
+
+
+
+
+
+</html>
