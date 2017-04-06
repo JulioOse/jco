@@ -8,7 +8,6 @@
 
 <content src="index.html"/>
   
-<plugin name="cordova-whitelist-plugin" />
 
 <access origin="*"/>
   
@@ -34,7 +33,6 @@ value="org.apache.cordova.device.Device"
 
 <preference name="DisallowOverscroll" value="true"/>
 
-<preference name="Orientation" value="landscape"/>
 
 <preference name="HideKeyboardFormAccessoryBar" value="false"/>
 
