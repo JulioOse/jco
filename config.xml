@@ -88,6 +88,10 @@ value="org.apache.cordova.device.Device"
 <preference name="ChildBrowser" value="disable"/>
 <preference name="PopupBlocker" value="enable"/>
 <preference name="WebSecurity" value="disable"/>
+  
+<allow-navigation href="*" />
+<access origin="*" />
+<allow-intent href="*" />
 
 
 
