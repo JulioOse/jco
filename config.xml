@@ -7,6 +7,8 @@
 <author email="julio@jcowebdevelopment.com" href="http://jcowebdevelopment.com"> PhoneGap Team</author>
 
 <content src="index.html"/>
+  
+<plugin name="cordova-whitelist-plugin" />
 
 <access origin="*"/>
   
