@@ -21,4 +21,6 @@
 <allow-navigation href="*" />
   <icon src="icon.png" />
  <splash src="splash.png" />
+        
+   <splash src="splash.png" platform="android" width="320" height="480" />
 </widget>
