@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "org.jorgecardoso.ldm.jquerymobileapp"
+        id          = "com.jcowebdevelopmment.jcowebdevelopmentapp"
         versionCode = "1"
         version     = "1.0.0" >
 
-    <name>Jquery mobile app</name>
+    <name>Jco web developent</name>
 
     <description>
-        An example for phonegap build docs.
+        we can create an awesome web site or web app for your business
     </description>
 
-    <author href="http://jorgecardoso.eu" email="jorgecardoso@ieee.org">
-        Jorge Cardoso
+    <author href="http://jcowebdevelopment.com" email="julio@jcowebdevelopment.com">
+        Julio Oseguera 
     </author>
 
 <plugin name="cordova-plugin-whitelist" />
