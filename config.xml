@@ -20,6 +20,7 @@
 <allow-intent href="*" />
 <allow-navigation href="*" />
   <icon src="icon.png" />
+ <preference name="SplashScreen" value="splash" />
  <splash src="splash.png" />
         
    <splash src="splash.png" platform="android" width="320" height="480" />
