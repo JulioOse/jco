@@ -15,7 +15,6 @@
 		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		
 		<script src="cordova.js"></script>
-		
 	</head>
 	
 	<body>
@@ -44,9 +43,8 @@
 		<!--- page one --->
 		<div data-role="page" id="pageone" data-theme="b" >
 			<div data-role="header">
-				<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+			
 				<h1> Jco Web Development</h1>
-				<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
 			</div>
 			<div data-role="main">
 				<img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Sandiego_skyline_at_night.JPG" class="fullscreen">
@@ -64,6 +62,13 @@
 					Our mission is to make sure you get a product that satisfies and exceeds your needs.
 					Give us a call or email us to see how exactly we will accomplish just that</p>
 				</div>
+			
+
+				<div data-role="popup" id="myPopup">
+					 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+					<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+				</div>
 				
 			</div>
 			<div data-role="footer" data-position="fixed">
@@ -72,6 +77,7 @@
 						<li><a href="#pageone" data-icon="home">Home</a></li>
 						<li><a href="#pagetwo" data-icon="info">About</a></li>
 						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+						<li><a href="#myPopup" data-rel="popup" data-position-to="window" data-icon="mail"> Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -83,9 +89,7 @@
 		<!--- page two ---->
 	<div data-role="page" id="pagetwo" data-theme="b" >
 			<div data-role="header">
-				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
 				<h1> About</h1>
-				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
 			</div>
 
 			<div data-role="main">
@@ -95,6 +99,14 @@
 					<li><a href="#pagefour" data-transition="slide" class='cursive'><img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/template-1599663_960_720.png" >Websites</a></li>
 					<li><a href="#pagefive" data-transition="slide" class='cursive'><img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/statistic-1606951_960_720.png" >Web Applications</a></li>
 				</ul>
+				
+				
+				<div data-role="popup" id="myPopup2">
+					 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+					<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+				</div>
+				
 			</div>
 			
 			
@@ -104,6 +116,7 @@
 						<li><a href="#pageone" data-icon="home">Home</a></li>
 						<li><a href="#pagetwo" data-icon="info">About</a></li>
 						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+						<li><a href="#myPopup2" data-rel="popup" data-position-to="window" data-icon="mail"> Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -114,9 +127,8 @@
 		<!--- page three ---->
 	<div data-role="page" id="pagethree" data-theme="b" >
 			<div data-role="header">
-				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+
 				<h1> About</h1>
-				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
 			</div>
 			
 			<div data-role="main">
@@ -124,6 +136,12 @@
 				<img src="http://www.publicdomainpictures.net/pictures/190000/velka/responsive-web-design-concept.jpg" class="fullscreen">
 				<h3 class="header-decor1">WEBSITE  VS WEB APP: WHAT DO YOU NEED?</h3>
 				<p>A web site is like a brochure, design to present information to a user. Websites usually require little interaction by the user and have limited functionality. On the other hand web apps have a more rich user experience and have more functionality an example would be gmail. What you need depends on what you are trying to accomplish and who the intended users are. Give us a call so we can figure out what exactly you need.</p>
+				
+				<div data-role="popup" id="myPopup3">
+					 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+					<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+				</div>
 			</div>
 			
 			<div data-role="footer" data-position="fixed">
@@ -132,6 +150,7 @@
 						<li><a href="#pageone" data-icon="home">Home</a></li>
 						<li><a href="#pagetwo" data-icon="info">About</a></li>
 						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+						<li><a href="#myPopup3" data-rel="popup" data-position-to="window" data-icon="mail"> Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -142,9 +161,7 @@
 		<!--- page four ---->
 	<div data-role="page" id="pagefour" data-theme="b">
 			<div data-role="header">
-				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
 				<h1> About</h1>
-				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
 			</div>
 			
 			<div data-role="main">
@@ -152,6 +169,12 @@
 				<img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/template-1599663_960_720.png" class="fullscreen">
 				<h3  class="header-decor2">WEBSITES</h3>
 				<p>Our websites are built using a powerful and well known tool called WordPress. All our websites are included with certain features. First off all our websites are fully responsive, meaning that your website will look good on both small and large screens. Another feature we include is Search engine optimization(SEO), seo is used to make sure that your website is shown further up the search results. Lastly we make sure your website is secure from hackers by using something called a web application firewall (WAF). This piece of technology is used to monitor your website for a suspicious activity and preventing any attacks.</p>
+				
+				<div data-role="popup" id="myPopup4">
+					 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+					<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+				</div>
 			</div>
 			
 			<div data-role="footer" data-position="fixed">
@@ -160,6 +183,7 @@
 						<li><a href="#pageone" data-icon="home">Home</a></li>
 						<li><a href="#pagetwo" data-icon="info">About</a></li>
 						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+						<li><a href="#myPopup4" data-rel="popup" data-position-to="window" data-icon="mail"> Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -169,9 +193,7 @@
 		<!--- page five ---->
 	<div data-role="page" id="pagefive" data-theme="b">
 			<div data-role="header">
-				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
 				<h1> About</h1>
-				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
 			</div>
 			
 			<div data-role="main">
@@ -179,6 +201,12 @@
 				<img src="http://www.jcowebdevelopment.com/wp-content/uploads/2017/01/statistic-1606951_960_720.png" class="fullscreen">
 				<h3 class="header-decor2">WEB APPLICATIONS</h3>
 				<p>Our web applications are built on the well known and commonly used LAMP (Linux Apache Mysql PHP ) stack.  We can build you a web application that can help manage your business and make your company more productive. An example of a web application that can help improve your business operations would be an inventory system. All our web applications are coded securely to make sure that your business data is safe and protected.</p>
+				
+				<div data-role="popup" id="myPopup5">
+					 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+					<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+				</div>
 			</div>
 			
 			<div data-role="footer" data-position="fixed">
@@ -187,6 +215,7 @@
 						<li><a href="#pageone" data-icon="home">Home</a></li>
 						<li><a href="#pagetwo" data-icon="info">About</a></li>
 						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+						<li><a href="#myPopup5" data-rel="popup" data-position-to="window" data-icon="mail"> Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -196,15 +225,18 @@
 		<!--- page six ---->
 	<div data-role="page" id="pagesix" data-theme="b">
 			<div data-role="header">
-				<a href="mailto:julio@jcowebdevelopment.com" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
 				<h1> Request Form</h1>
-				<a href="tel:619-654-4221" class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
 			</div>
 			
 			<div data-role="main">
 				<iframe class="fullscreen" src="https://docs.google.com/forms/d/e/1FAIpQLSfNiOf5bRYF1NZ3rZD0P57gs6LQak_pjPGiq4Wa9Kf6K8xJfA/viewform?embedded=true" width="1000" height="1000"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-	
+			<div data-role="popup" id="myPopup6">
+					 <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<a href="mailto:julio@jcowebdevelopment.com"  class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+					<a href="tel:619-654-4221"  class="ui-btn ui-icon-phone ui-btn-icon-left">Call</a>
+				</div>
 			</div>
+	
 			
 	<div data-role="footer" data-position="fixed">
 				<div data-role="navbar">
@@ -212,6 +244,7 @@
 						<li><a href="#pageone" data-icon="home">Home</a></li>
 						<li><a href="#pagetwo" data-icon="info">About</a></li>
 						<li><a href="#pagesix" data-icon="comment">Request</a></li>
+						<li><a href="#myPopup6" data-rel="popup" data-position-to="window" data-icon="mail"> Contact</a></li>
 					</ul>
 				</div>
 			</div>
