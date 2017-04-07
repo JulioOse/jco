@@ -20,4 +20,5 @@
 <allow-intent href="*" />
 <allow-navigation href="*" />
   <icon src="icon.png" />
+ <splash src="splash.png" />
 </widget>
