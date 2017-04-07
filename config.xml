@@ -19,4 +19,5 @@
 <access origin="*" />
 <allow-intent href="*" />
 <allow-navigation href="*" />
+  <icon src="icon.png" />
 </widget>
