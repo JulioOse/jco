@@ -20,7 +20,4 @@
 <allow-intent href="*" />
 <allow-navigation href="*" />
   <icon src="icon.png" />
- <splash src="splash.png" />
-        
-   <splash src="icon.png" platform="android" width="320" height="480" />
 </widget>
